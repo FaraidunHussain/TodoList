@@ -1,0 +1,32 @@
+  .container {
+    margin: 0 auto;
+    width: 300px;
+  }
+  input {
+    display: inline-block;
+    color: #161515;
+    font-size: 18px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .letters {
+    position: absolute;
+    height: 20px;
+    width: 23px;
+    margin: 2px;
+    text-align: center;
+    cursor: pointer;
+    }
+  .content > span {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .delete {
+    float: right;
+    padding: 4px;
+    color: #252323;
+    font-size: 15px;
+    cursor: pointer;
+  }
